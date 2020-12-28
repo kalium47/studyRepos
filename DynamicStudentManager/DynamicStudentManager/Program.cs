@@ -23,7 +23,10 @@ namespace DynamicStudentManager
 
                 Console.WriteLine("Add Another? Y/N");
 
-                if (Console.ReadLine() != "y")
+                if (Console.ReadLine() == "y")
+                    addOne = true;
+
+                else
                     addOne = false;
             }
 
